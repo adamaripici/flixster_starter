@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class = "fixsterTitle" id = "flixster">Flixster</button>
+    <form class="search-container">
+        <label for ="site-search"></label><br>
+        <input type="text" id="search-input" name="search" placeholder="Search a movie" class="search-input"><br>
+        <input class = "submit-button" type="submit" value="">
+    </form>
+    <br>
+    <!-- <h1 id = "flixster">Flixster</h1> -->
+    <h1 id ="playing">Now Playing</h1>
+    <!-- section to show movies playing -->
+    <div class = "movie-card " id = "movies-grid">
+        <img class = "movie-poster" id = "poster"> </img>
+        <h3 class = "movie-title" id = "title"></h3>
+        <p class = "movie-votes" id = "votes"></p>
+    </div>
+
+    
+    <button id = "show-more" class = "hidden">
+        Show More
+    </button>
+    <script src = script.js></script>
+</body>
+</html>

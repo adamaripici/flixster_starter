@@ -1,1 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    /* height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
 
+h1{
+    color:#fff;
+}
+.movie-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+}
+
+#movies-grid.movies-card {
+    display: none;
+}
+
+#title {
+    color: #fff;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+#votes {
+    color: #fff;
+}
+/* .hidden {
+    display: none;
+} */
+
+#show-more {
+    margin: 0;
+    position: absolute;
+    background-color: #fafafa;
+    color:rgb(194, 9, 9);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    position: relative;
+}
+
+#poster {
+    height: 400px;
+    /* width: 250px; */
+}
+
+form {
+    display: inline-block;
+}
+
+#flixster{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    position: relative;
+    font-family: Lucida Console;
+    text-align: center;
+    background-color: #080808;
+    color:rgb(194, 9, 9);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-image: url("https://www.clipartmax.com/png/middle/8-85921_search-instagram-search-icon-vector.png");
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: transparent;
+    margin-left:-45px;
+    border:none;
+}
+
+/* CSS from :  https://codepen.io/yuhomyan/pen/XWdYJdv*/
+.search-container{
+    margin: 0 auto;
+    display: block;
+    background: rgb(243, 243, 243);
+    height: 30px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.form.search-container {
+    margin: 0 auto;
+    display: block;
+}
+
+.search-container:hover > .search-input{
+    width: 400px;
+}
+
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+    font-family: Comic Sans MS;
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+/* @keyframes hoverShake {
+    0% {transform: skew(0deg,0deg);}
+    25% {transform: skew(5deg, 5deg);}
+    75% {transform: skew(-5deg, -5deg);}
+    100% {transform: skew(0deg,0deg);}
+  } */
