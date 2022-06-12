@@ -45,7 +45,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
 `ADD_EMBEDDED_CODE_HERE`
-https://im5.ezgif.com/tmp/ezgif-5-25dc72368d.gif
+ `https://im5.ezgif.com/tmp/ezgif-5-25dc72368d.gif`
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
